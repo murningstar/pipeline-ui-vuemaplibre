@@ -1,0 +1,11 @@
+services:
+  ui:
+    image: vue-maplibre-ui
+    ports:
+      - 80:80
+    networks:
+      - pipelinenetwork
+
+networks:
+  pipelinenetwork:
+    external: true
