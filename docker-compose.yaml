@@ -1,6 +1,6 @@
 services:
   ui:
-    image: vue-maplibre-ui
+    image: michaelmorningstar/vue-maplibre-ui:latest
     ports:
       - 80:80
     networks:
