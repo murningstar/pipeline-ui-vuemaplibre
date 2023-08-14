@@ -123,8 +123,8 @@ function createPopups() {
     const popupTipElement = (popup.getElement().querySelectorAll(`[class="maplibregl-popup-tip mapboxgl-popup-tip"]`)[0] as HTMLElement)
     popupContentElement.classList.add('my-popup-content') // main.css
     popupTipElement.classList.add('my-popup-tip') // main.css
-
     value.markerObj.setPopup(popup)
+    value.markerObj.togglePopup()
   })
 }
 
